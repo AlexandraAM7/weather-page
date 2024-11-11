@@ -1,0 +1,30 @@
+@import "../../styles/variables";
+
+.wrapper {
+  background: $bg-gradient-white;
+  padding: 10px 30px;
+  border-radius: 8px;
+  width: 60%;
+  gap: 15px;
+  border-bottom: solid 1px $white;
+  border-right: solid 1px $white;
+  .weatherShortInfo {
+    h2 {
+      font-size: 32px;
+      font-family: $font-comic;
+      text-shadow: $text-shadow1;
+      margin: 0;
+    }
+    p {
+      text-transform: capitalize;
+    }
+  }
+  .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    color: $white;
+    text-shadow: $text-shadow1;
+  }
+}

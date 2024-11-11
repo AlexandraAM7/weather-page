@@ -1,0 +1,33 @@
+@import './styles/variables.scss';
+
+.app {
+  text-align: center;
+  font-family: $font-main;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: $offWhite;
+
+  .wrapper {
+    color: white;
+    width: 400px;
+    margin-inline: auto;
+    background: $bg-gradient-blue;
+    min-height: 60vh;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .weatherImg {
+    img {
+      width: 100px;
+    }
+  }
+}
